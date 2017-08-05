@@ -1,0 +1,13 @@
+{
+  "name": "js-definition-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dan Schultz <schultz.t.dan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --allowJs --declaration --outDir ./dist ./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
